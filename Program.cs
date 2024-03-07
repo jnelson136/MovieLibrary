@@ -53,6 +53,8 @@ do
             {
                 movie.genres.Add("(no genres listed)");
             }
+            // add movie
+            movieFile.AddMovie(movie);
         }
 
     }
